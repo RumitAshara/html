@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>COVID Form</title>
+    </head>
+    <body>
+        <form>
+            <table align="center" cellspacing="15">
+                <thead>
+                    <tr>
+                        <th colspan="2">COVID-19 REGI FORM</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>First name</td>
+                        <td><input type="text" name="fname" required></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" name="lname" required></td>
+                    </tr>
+                    <tr>
+                        <td>Adhar number</td>
+                        <td><input type="number" name="number" required></td>
+                    </tr>
+                    <tr>
+                        <td>Vaccine</td>
+                        <td><select required>
+                            <option value="select">select Vaccine</option>
+                            <option value="1st">1st</option>
+                            <option value="2nd">2nd</option>
+                            <option value="3rd">3rd</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Center</td>
+                        <td><select name="Center">
+                            <option>Select center</option>
+                            <option value="north">north</option>
+                            <option value="south">south</option>
+                            <option value="east">east</option>
+                            <option value="west">west</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Date Of DOSE</td>
+                        <td><input type="date" name="DateOfDOSE" required></td>
+                    </tr>
+                    <tr>
+                        <td>Dose NUmber</td>
+                        <td><input type="number" name="Dose number" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" name="submit" value="submit"><input type="reset" name="reset" value="cancel"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
