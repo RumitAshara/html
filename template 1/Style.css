@@ -1,0 +1,39 @@
+.Page{
+	background-color: skyblue;
+	width: 70%;
+	margin: 20px;
+	padding: 20px;
+	height: 300px;
+}
+.Header{
+	background-color: maroon;
+}
+.Content{
+	background-color: orange;
+	height: 230px;
+	
+}
+.entry{
+	background-color: black;
+	color: white;
+	margin: 20px;
+	padding: 5px;
+	height: 15px;
+	width: 600px;
+}
+.sidebar{
+	background-color: black;
+	color: white;
+	float: right;
+	height: 100px;
+	width: 20%;
+	margin-top: 20px;
+}
+.Footer{
+	background-color: blue;
+	color: white;
+}
+.Float{
+	float: left;
+	margin-top: 12px;
+}
